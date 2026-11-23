@@ -1,0 +1,11 @@
+.env
+arecaguard.db
+uploads/*
+!uploads/.gitkeep
+runs/
+__pycache__/
+venv/
+dataset/train/*/*
+dataset/val/*/*
+!dataset/**/.gitkeep
+yolov8n-cls.pt
