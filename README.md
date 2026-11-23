@@ -33,6 +33,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+For Streamlit Community Cloud, `packages.txt` installs the system libraries OpenCV needs at runtime.
+
 First login: type `admin` in the email box, password `admin123`. Farmers sign up with their email address. **Change this before sharing the app** (edit `DEFAULT_ADMIN_PASSWORD` in `config.py` before the first run, or delete `arecaguard.db` and restart).
 
 To use it on a phone in the same Wi-Fi: `streamlit run app.py --server.address 0.0.0.0`, then open `http://<laptop-ip>:8501` on the phone.
